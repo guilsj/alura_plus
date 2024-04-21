@@ -35,7 +35,6 @@ body {
     grid-template-columns: 50% 50%;
     align-items: center;
     height: 100vh;
-    padding: 0 3em;
 }
 
 .conteiner__caixa {
@@ -104,10 +103,6 @@ body {
     margin-top: 1em;
 }
 
-.dispositivos {
-    height: 70vh;
-}
-
 .dispositivos__titulo {
     text-align: center;
     font-size: 3rem;
@@ -125,6 +120,7 @@ body {
 .lista__dispositivos {
     font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 3em;
 }
 
 .rodape {
@@ -149,4 +145,30 @@ body {
     font-size: 0.75rem;
     color: var(--cor-segunda);
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .principal {
+        background-image: none;
+    }
+
+    .conteiner{
+        display: block;
+    }
+
+    .conteiner__caixa {
+        margin:  2em;
+    }
+
+    .caixa__imagem-combo {
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape {
+        padding: 0 1em;
+    }
 }
