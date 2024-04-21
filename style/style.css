@@ -168,6 +168,11 @@ body {
         display: block;
     }
 
+    .lista-rodape {
+        display: flex;
+        flex-direction: column;
+    }
+
     .rodape {
         padding: 0 1em;
     }
